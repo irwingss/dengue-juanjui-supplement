@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this material, please cite this repository."
 title: "Supplementary materials for Association between dengue cases and entomological indicators of Aedes aegypti in a city in the Peruvian Amazon"
 type: dataset
-version: "5.0.1"
+version: "5.0.2"
 authors:
   - given-names: "Kepler N."
     family-names: "Andrade-Herrera"
