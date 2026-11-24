@@ -1,0 +1,16 @@
+Group,Characteristic,Description
+Setting,Setting,"City of Juanjuí (San Martín, Peru); patients notified to the epidemiological surveillance system of the Mariscal Cáceres Territorial Health Management Unit"
+Source population,Eligibility criteria,"Notification between January and June 2025, residence in Juanjuí and household inspected (at least one container examined) within 7 days after notification"
+,Sample size,"252 patients (124 positive and 128 negative); all eligible notified patients were included, without a formal sample size calculation"
+,Clinical case definition,Probable dengue case notified to the surveillance system; the same definition for positive and negative patients
+Study period,Study period,"January to June 2025, a single transmission period; adjustment for month of notification"
+Exposure,Exposure definition,At least one container with immature stages of Ae. aegypti in the patient’s household (main analysis); Container Index as a continuous variable (secondary analysis)
+,Ascertainment,"Indoor inspection by surveillance and vector control staff following the national technical standard, with the same protocol in both groups; median of 2 days (cases) and 1 day (controls) after notification; households inspected more than 7 days later were excluded"
+,Entomological indicator,Larval indices (containers and households with larvae or pupae); pupal and adult indices were not used
+Outcome,Sample type,Serum
+,Test,"ELISA [PENDING KEPLER: state whether the ELISA detected NS1, IgM or both, the commercial kit, the laboratory that processed it, the days between symptom onset and sampling, and whether RT-PCR confirmation was performed]; the positive or negative classification derives from the optical density of the assay"
+,Duration of symptoms,"Not recorded in the data matrix, so the analysis could not be restricted to samples taken in the window of highest test sensitivity"
+Model,Fitted model (main analysis),"Unconditional logistic regression, without matching; block-clustered robust standard errors and inverse probability of inclusion weighting as sensitivity analyses"
+,Covariates,"Age (continuous), sex, month of notification and sector (fixed effect); occupation in an additional model; water storage practices, crowding and household income were not available"
+,Test-negative definition,"Negative dengue result in the same test; results for other arboviruses, such as chikungunya or Zika, were not available"
+Estimation,Measure of association,Crude and adjusted OR of a household with Ae. aegypti between positive and negative patients

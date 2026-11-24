@@ -1,0 +1,21 @@
+variable,definicion
+n,Número correlativo de la ficha; variable de enlace interna.
+edad,Edad en años
+sexo,F/M; vacío = no registrado
+ocupacion,"Estudiante, Ama de casa, Otra; vacío = no registrada"
+denguepositivo,"1 = confirmado por laboratorio, 0 = negativo"
+vivienda,"Estado de la visita: I inspeccionada, C cerrada, R renuente, N no ubicada"
+fecha_invest,Fecha de investigación del caso
+fecha_interv,Fecha de la visita/inspección entomológica
+mes,Mes de la fecha de investigación
+semana_epi,Semana epidemiológica
+retraso,Días entre investigación e inspección
+sector,Sector del registro de manzana o del polígono GPS; vacío si no se pudo asignar.
+mz,Código de manzana; 0 = no registrada
+recinsp,Recipientes con agua inspeccionados
+recpos,Recipientes positivos para estadios inmaduros de Ae. aegypti
+inspeccionada,1 si recinsp > 0
+aedes_vivienda,1 si recpos > 0 (exposición principal)
+ir,Índice de Recipientes como proporción (recpos/recinsp)
+motivo,Motivo de inclusión o exclusión
+analitica,True = población analítica (n = 252); False = excluida.

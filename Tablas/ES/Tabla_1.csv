@@ -1,0 +1,16 @@
+Grupo,Característica,Descripción
+Ámbito,Ámbito,"Ciudad de Juanjuí (San Martín, Perú); pacientes notificados al sistema de vigilancia epidemiológica de la Unidad de Gestión Territorial de Salud Mariscal Cáceres"
+Población fuente,Criterios de elegibilidad,"Notificación entre enero y junio de 2025, residencia en Juanjuí y vivienda inspeccionada (al menos un recipiente examinado) dentro de los 7 días posteriores a la notificación"
+,Tamaño de la muestra,"252 pacientes (124 positivos y 128 negativos); se incluyó a todos los notificados elegibles, sin cálculo formal del tamaño de muestra"
+,Definición de caso clínico,Caso probable de dengue notificado al sistema de vigilancia; la misma definición para positivos y negativos
+Periodo del estudio,Periodo del estudio,"Enero a junio de 2025, un único periodo de transmisión; ajuste por mes de notificación"
+Exposición,Definición de la exposición,Al menos un recipiente con estadios inmaduros de Ae. aegypti en la vivienda del paciente (análisis principal); Índice de Recipientes como variable continua (análisis secundario)
+,Determinación,"Inspección intradomiciliaria por el personal de vigilancia y control vectorial según la norma técnica nacional, con el mismo protocolo en ambos grupos; mediana de 2 días (casos) y 1 día (controles) después de la notificación; se excluyeron las viviendas inspeccionadas más de 7 días después"
+,Indicador entomológico,Índices larvarios (recipientes y viviendas con larvas o pupas); no se usaron índices pupales ni de adultos
+Desenlace,Tipo de muestra,Suero
+,Prueba,"ELISA [PENDIENTE KEPLER: indicar si la ELISA detectó NS1, IgM o ambas, el kit comercial, el laboratorio que la procesó, los días entre el inicio de los síntomas y la toma de muestra, y si hubo confirmación por RT-PCR]; la clasificación positiva o negativa se deriva de la densidad óptica del ensayo"
+,Duración de los síntomas,"No registrada en la matriz de datos, por lo que no pudo restringirse a las muestras tomadas en la ventana de mayor sensibilidad de la prueba"
+Modelo,Modelo ajustado (análisis principal),"Regresión logística no condicional, sin emparejamiento; errores estándar robustos por manzana y ponderación por la probabilidad de inclusión como análisis de sensibilidad"
+,Covariables,"Edad (continua), sexo, mes de notificación y sector (efecto fijo); ocupación en un modelo adicional; no se dispuso de prácticas de almacenamiento de agua, hacinamiento ni ingreso del hogar"
+,Definición de test-negativo,"Resultado negativo a dengue en la misma prueba; no se dispuso de resultados para otras arbovirosis, como chikungunya o Zika"
+Estimación,Medida de asociación,OR crudo y ajustado de vivienda con Ae. aegypti entre pacientes positivos y negativos

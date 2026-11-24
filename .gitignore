@@ -1,0 +1,13 @@
+/Reproduccion/
+/Datos/privados/
+*.docx
+*.xlsx
+*.xls
+*.kmz
+*.qgz
+*.zip
+base_770*.csv
+__pycache__/
+.RData
+.Rhistory
+.venv/

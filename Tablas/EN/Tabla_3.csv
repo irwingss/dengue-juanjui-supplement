@@ -1,0 +1,23 @@
+Term,β (SE),z,p,OR (95% CI)
+"Model 1. Household positive for Ae. aegypti, crude (n = 252)",,,,
+Intercept,−0.382 (0.154),−2.48,0.013,0.68 (0.50–0.92)
+Positive household,1.174 (0.290),4.04,<0.001,3.23 (1.83–5.71)
+"Model 2. Household positive for Ae. aegypti, adjusted (n = 234)",,,,
+Intercept,0.468 (0.404),1.16,0.247,1.60 (0.72–3.53)
+Positive household,1.413 (0.352),4.02,<0.001,4.11 (2.06–8.19)
+"Age, years",−0.003 (0.009),−0.29,0.774,1.00 (0.98–1.01)
+"Sex, female vs. male",−0.170 (0.310),−0.55,0.584,0.84 (0.46–1.55)
+Month: February vs. January,−1.730 (0.469),−3.69,<0.001,0.18 (0.07–0.44)
+Month: March vs. January,−1.973 (0.465),−4.24,<0.001,0.14 (0.06–0.35)
+Month: April vs. January,−2.119 (0.486),−4.36,<0.001,0.12 (0.05–0.31)
+Month: May vs. January,−1.890 (0.507),−3.73,<0.001,0.15 (0.06–0.41)
+Month: June vs. January,−3.552 (1.120),−3.17,0.002,0.03 (0.00–0.26)
+Sector: Juanjuicillo vs. Juanjuí centro,0.810 (0.413),1.96,0.050,2.25 (1.00–5.05)
+Sector: La Merced vs. Juanjuí centro,0.259 (0.457),0.57,0.571,1.30 (0.53–3.17)
+Sector: San Juan vs. Juanjuí centro,0.444 (0.542),0.82,0.413,1.56 (0.54–4.51)
+Sector: Santa Rosa vs. Juanjuí centro,1.188 (0.536),2.21,0.027,3.28 (1.15–9.39)
+"Model 3. Container Index, crude (n = 252)",,,,
+Intercept,−0.149 (0.140),−1.07,0.285,0.86 (0.66–1.13)
+Container Index (+10 percentage points),0.125 (0.066),1.91,0.057,1.13 (1.00–1.29)
+"Model 4. Container Index, adjusted (n = 234)",,,,
+Container Index (+10 percentage points),0.245 (0.078),3.16,0.002,1.28 (1.10–1.49)

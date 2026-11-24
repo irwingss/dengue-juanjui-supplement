@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite this repository."
+title: "Supplementary materials for Association between dengue cases and entomological indicators of Aedes aegypti in a city in the Peruvian Amazon"
+type: dataset
+version: "5.0.0"
+authors:
+  - given-names: "Kepler N."
+    family-names: "Andrade-Herrera"
+    orcid: "https://orcid.org/0000-0003-4732-1613"
+  - given-names: "Alvaro E."
+    family-names: "Tresierra-Aguilar"
+    orcid: "https://orcid.org/0000-0001-8611-7426"
+  - given-names: "Irwing S."
+    family-names: "Saldaña"
+    orcid: "https://orcid.org/0000-0001-5761-2882"
+repository-code: "https://github.com/irwingss/dengue-juanjui-supplement"
+keywords:
+  - dengue
+  - Aedes aegypti
+  - test-negative design
+  - Juanjuí
+  - Peru

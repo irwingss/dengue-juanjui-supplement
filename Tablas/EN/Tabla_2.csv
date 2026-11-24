@@ -1,0 +1,31 @@
+Characteristic,Laboratory-confirmed (n = 124),Laboratory-negative (n = 128),Total (n = 252)
+"Age, years, median (IQR)",15 (10–30),16 (10–30),15 (10–30)
+"Sex, n",,,
+Female,57,74,131
+Male,51,54,105
+Not recorded,16,0,16
+"Occupation, n",,,
+Student,75,71,146
+Homemaker,20,30,50
+Other,25,20,45
+Not recorded,4,7,11
+"Month of notification, n",,,
+January,58,21,79
+February,28,24,52
+March,14,27,41
+April,11,26,37
+May,12,20,32
+June,1,10,11
+"Sector, n",,,
+Juanjuicillo,45,32,77
+Juanjuí centro,29,42,71
+La Merced,18,26,44
+Santa Rosa,17,12,29
+San Juan,13,15,28
+No block recorded,2,1,3
+Entomological findings,,,
+"Containers inspected, n",800,677,1477
+"Containers inspected per household, median (IQR)",5 (4–8),4 (3–7),5 (3–8)
+"Containers positive for Ae. aegypti, n",81,36,117
+"Households with Ae. aegypti, n (%)",53 (42.7),24 (18.8),77 (30.6)
+"Container Index, %, median (IQR)",0 (0–17),0 (0–0),0 (0–11)

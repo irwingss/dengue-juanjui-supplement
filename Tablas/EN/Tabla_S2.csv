@@ -1,0 +1,12 @@
+Specification,n,"Positive household, OR (95% CI)",p,"CI (+10 pp), OR (95% CI)",p
+Sequential adjustment,,,,,
+Crude,252,3.23 (1.83–5.71),<0.001,1.13 (1.00–1.29),0.057
+Age + sex,234,2.83 (1.56–5.14),<0.001,1.13 (1.00–1.28),0.056
+Age + sex + month,234,3.97 (2.04–7.73),<0.001,1.27 (1.09–1.47),0.002
+"Age + sex + epidemiological week (natural spline, 3 df)",234,4.02 (2.08–7.74),<0.001,1.22 (1.07–1.40),0.004
+Age + sex + month + sector (main model),234,4.11 (2.06–8.19),<0.001,1.28 (1.10–1.49),0.002
+Age + sex + month + sector + occupation,223,4.82 (2.32–10.02),<0.001,1.32 (1.13–1.55),<0.001
+Sensitivity analyses of the main model,,,,,
+Robust standard errors clustered by block,234,4.11 (2.04–8.27),<0.001,,
+Inverse probability of inclusion weighting,234,4.28 (2.06–8.91),<0.001,,
+Without the sex variable,249,4.25 (2.19–8.26),<0.001,,

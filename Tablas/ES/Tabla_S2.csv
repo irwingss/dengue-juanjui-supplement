@@ -1,0 +1,12 @@
+Especificación,n,"Vivienda positiva, OR (IC 95%)",p,"IR (+10 pp), OR (IC 95%)",p
+Ajuste secuencial,,,,,
+Crudo,252,3.23 (1.83–5.71),<0.001,1.13 (1.00–1.29),0.057
+Edad + sexo,234,2.83 (1.56–5.14),<0.001,1.13 (1.00–1.28),0.056
+Edad + sexo + mes,234,3.97 (2.04–7.73),<0.001,1.27 (1.09–1.47),0.002
+"Edad + sexo + semana epidemiológica (spline natural, 3 gl)",234,4.02 (2.08–7.74),<0.001,1.22 (1.07–1.40),0.004
+Edad + sexo + mes + sector (modelo principal),234,4.11 (2.06–8.19),<0.001,1.28 (1.10–1.49),0.002
+Edad + sexo + mes + sector + ocupación,223,4.82 (2.32–10.02),<0.001,1.32 (1.13–1.55),<0.001
+Análisis de sensibilidad del modelo principal,,,,,
+Errores estándar robustos agrupados por manzana,234,4.11 (2.04–8.27),<0.001,,
+Ponderación por el inverso de la probabilidad de inclusión,234,4.28 (2.06–8.91),<0.001,,
+Sin la variable sexo,249,4.25 (2.19–8.26),<0.001,,

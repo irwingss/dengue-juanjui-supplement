@@ -1,0 +1,28 @@
+Characteristic,Included (n = 252),Excluded (n = 518),p
+"Laboratory result, n (%)",,,<0.001
+Confirmed,124 (49.2),156 (30.1),
+Discarded,128 (50.8),362 (69.9),
+"Age, median (IQR)",15 (10–30),18 (11–32),0.077
+"Sex, n (%)",,,0.048
+Female,131 (52.0),284 (54.8),
+Male,105 (41.7),220 (42.5),
+Not recorded,16 (6.3),14 (2.7),
+"Occupation, n (%)",,,0.011
+Student,146 (57.9),268 (51.7),
+Homemaker,50 (19.8),82 (15.8),
+Other,45 (17.9),116 (22.4),
+Not recorded,11 (4.4),52 (10.0),
+"Month of notification, n (%)",,,<0.001
+January,79 (31.3),78 (15.1),
+February,52 (20.6),148 (28.6),
+March,41 (16.3),85 (16.4),
+April,37 (14.7),80 (15.4),
+May,32 (12.7),70 (13.5),
+June,11 (4.4),57 (11.0),
+"Sector, n (%)",,,—
+Juanjuí centro,71 (28.2),42 (8.1),
+Juanjuicillo,77 (30.6),26 (5.0),
+La Merced,44 (17.5),23 (4.4),
+San Juan,28 (11.1),19 (3.7),
+Santa Rosa,29 (11.5),14 (2.7),
+No block recorded,3 (1.2),394 (76.1),
