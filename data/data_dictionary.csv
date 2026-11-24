@@ -1,0 +1,27 @@
+variable,definition
+record_id,Sequential record number used for internal linkage.
+age,Age in years.
+sex,"F = female, M = male, blank = not recorded."
+raw_occupation,Original occupation value from the restricted surveillance workbook.
+dengue_positive,"1 = laboratory-confirmed dengue, 0 = negative test result."
+visit_status,"Original visit code. I = inspected, C = household closed, R = resident declined, N = household not located."
+investigation_date,Date the suspected dengue case was investigated.
+visit_date,Date of the entomological visit or inspection.
+block,"Study block code, with 0 denoting an unrecorded block."
+latitude,Latitude of the visit location in decimal degrees.
+longitude,Longitude of the visit location in decimal degrees.
+containers_inspected,Number of water-holding containers examined.
+positive_containers,Number of containers with immature stages of Aedes aegypti.
+occupation,"Student, Homemaker or Other. Blank values indicate that occupation was not recorded."
+month,Calendar month of the investigation date.
+epi_week,Epidemiological week of the investigation date.
+delay_days,Days from investigation to the entomological visit.
+gps_sector,Sector derived from the location and the study polygons.
+block_sector,Sector recorded in the workbook for the household block.
+sector,"Sector assigned from the block when available, otherwise from GPS."
+inspected,"1 if at least one container was examined, 0 otherwise."
+household_aedes,"1 if at least one container was positive, 0 otherwise."
+container_index,Proportion of examined containers that were positive.
+within_window,Whether the inspection occurred within seven days of investigation.
+eligibility_reason,Reason for inclusion in or exclusion from the analytical population.
+included,"True for patients included in the analytical population (n = 252), False otherwise."

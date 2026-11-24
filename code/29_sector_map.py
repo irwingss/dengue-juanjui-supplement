@@ -35,23 +35,23 @@ def draw_map(source, output):
         legend.append(Patch(facecolor=color, edgecolor="#34424a", label=name))
 
     ax.set_aspect(1.008)
-    ax.set_xlabel("Longitude / Longitud (°)")
-    ax.set_ylabel("Latitude / Latitud (°)")
+    ax.set_xlabel("Longitude (°)")
+    ax.set_ylabel("Latitude (°)")
     ax.ticklabel_format(useOffset=False)
     ax.xaxis.set_major_locator(MaxNLocator(5))
-    ax.set_title("Urban sectors of Juanjuí / Sectores urbanos de Juanjuí", loc="left")
+    ax.set_title("Urban sectors of Juanjuí", loc="left")
     ax.annotate("", xy=(0.08, 0.91), xytext=(0.08, 0.83), xycoords="axes fraction",
                 arrowprops={"arrowstyle": "-|>", "color": "#34424a"})
     ax.text(0.08, 0.92, "N", transform=ax.transAxes, ha="center", color="#34424a")
     ax.legend(handles=legend, loc="lower right", framealpha=0.95)
     output.mkdir(parents=True, exist_ok=True)
     for ext in ("png", "pdf"):
-        fig.savefig(output / f"Figura_1_mapa_sectorial.{ext}", dpi=300)
+        fig.savefig(output / f"figure_1_sector_map.{ext}", dpi=300)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=Path("Reproduccion"))
+    parser.add_argument("--output", type=Path, default=Path("build/figures"))
     options = parser.parse_args()
-    boundaries = Path(__file__).resolve().parents[1] / "Datos" / "sectores_juanjui.geojson"
+    boundaries = Path(__file__).resolve().parents[1] / "data" / "juanjui_sectors.geojson"
     draw_map(boundaries, options.output)

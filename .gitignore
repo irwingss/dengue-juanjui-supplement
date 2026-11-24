@@ -1,11 +1,12 @@
-/Reproduccion/
-/Datos/privados/
+/build/
+/data/private/
 *.docx
 *.xlsx
 *.xls
 *.kmz
 *.qgz
 *.zip
+analysis_data*.csv
 base_770*.csv
 __pycache__/
 .RData
